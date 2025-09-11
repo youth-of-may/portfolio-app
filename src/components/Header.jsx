@@ -1,8 +1,8 @@
-export default function Header({children, isHeader=true}) {
-    const size = isHeader ? "text-4xl" : "text-2xl"
+export default function Header({children, isHeader=true, color="text-black"}) {
+    const classStyle = isHeader ? "text-4xl" : "text-2xl"
     return (
         <>
-        <h6 className={size}>{children}</h6>
+        <h6 className={classStyle}>{children}</h6>
         </>
     )
 }
