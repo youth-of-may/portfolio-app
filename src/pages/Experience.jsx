@@ -1,9 +1,40 @@
 import PictureHolder from "../components/PictureHolder"
+import Header from "../components/Header"
+import Subheader from "../components/Subheader"
+import { useState } from "react"
 export default function Experience() {
+    const [org, setOrg] = useState(true)
+    const [educ, setEduc] = useState(false)
+    const [cert, setCert] = useState(false)
+    function clickOrg() {
+        setOrg(true)
+        setEduc(false)
+        setCert(false)
+    }
+    function clickEduc() {
+        setOrg(false)
+        setEduc(true)
+        setCert(false)
+    }
+    function clickCert() {
+        setOrg(false)
+        setEduc(false)
+        setCert(true)
+    }
     return (
         <>
-        <PictureHolder imgSrc="https://i.pinimg.com/736x/25/98/2c/25982c2af2cca84c831a37dedfd15c66.jpg" 
-        alt="randomImage" isDrop={true} dropOnHover={true}/>
+        <div className="text-center flex flex-col">
+            <Header isHeader={true} misc="mb-8">My Journey</Header>
+            <div className="flex gap-x-16 justify-center">
+                <Subheader misc="mb-8 hover:underline hover:underline-offset-4" handleClick={()=> clickOrg()}>Organizations</Subheader>
+                <Subheader misc="mb-8 hover:underline hover:underline-offset-4" handleClick={()=> clickEduc()}>Education</Subheader>
+                <Subheader misc="mb-8 hover:underline hover:underline-offset-4" handleClick={()=> clickCert()}>Certifications</Subheader>
+            </div>
+            <div>
+                <p>{org ? "org" : educ ? "educ" : "cert"}</p>
+            </div>
+
+        </div>
         </>
     )
 }
