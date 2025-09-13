@@ -1,8 +1,12 @@
 import Button from "../components/Button"
+import Header from "../components/Header"
 export default function Projects() {
     return (
         <>
-        <Button isRound={true} url="">Project1</Button>
+        <div className="text-center flex flex-col">
+                    <Header isHeader={true} misc="mb-8">My Projects</Header>
+        
+        </div>
         </>
     )
 }
