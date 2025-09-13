@@ -6,7 +6,7 @@ export default function Button({
   url,
 }) {
   const baseStyle =
-    "py-2 border border-black transition ease-in-out hover:text-white hover:scale-105";
+    "whitespace-nowrap py-2 border border-black transition ease-in-out hover:text-white hover:scale-105";
   const classStyle = isRound ? "rounded-full" : "rounded-md";
 
   function handleClick() {
