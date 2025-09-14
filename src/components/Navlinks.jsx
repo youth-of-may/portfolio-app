@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 export default function NavLinks({position="justify-end", mr=""}) {
     const linkStyle = "animation ease-in-out hover:underline hover:underline-offset-8 hover:text-gray-600 hover:underline-gray-600"
-    const navStyle = "w-full flex gap-x-8 text-2xl px-8"
+    const navStyle = "flex lg:gap-x-8 lg:text-2xl lg:w-full lg:px-8 text-lg gap-x-2 px-2 md:text-xl md:gap-x-4 md:px-4"
     return (
         <>
         <nav className={`${navStyle} ${position} ${mr}`}>
