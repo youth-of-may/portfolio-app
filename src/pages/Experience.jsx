@@ -1,6 +1,9 @@
 import PictureHolder from "../components/PictureHolder"
 import Header from "../components/Header"
 import Subheader from "../components/Subheader"
+import Organizations from "../components/Organizations"
+import Education from "../components/Education"
+import Certification from "../components/Certification"
 import { useState } from "react"
 export default function Experience() {
     const [org, setOrg] = useState(true)
@@ -31,9 +34,11 @@ export default function Experience() {
                 <Subheader misc="mb-8 hover:underline hover:underline-offset-4" handleClick={()=> clickCert()}>Certifications</Subheader>
             </div>
             <div>
-                <p>{org ? "org" : educ ? "educ" : "cert"}</p>
+                <p>{org ? <Organizations/> : educ ? <Education/> : <Certification/>}</p>
             </div>
+            <div>
 
+            </div>
         </div>
         </>
     )
