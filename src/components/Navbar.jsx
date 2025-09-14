@@ -5,7 +5,7 @@ import Button from "./Button";
 export default function Navbar() {
   return (
 
-    <div className="mt-4 mb-16 flex items-center">
+    <div className="mt-4 mb-16 flex items-center sm:flex-wrap">
     <Button px="px-8 text-md font-semibold">PRINCESS GIRON</Button>
     <NavLinks/>
     </div>
