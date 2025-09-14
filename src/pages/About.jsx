@@ -9,10 +9,10 @@ export default function About() {
             <Header isHeader={true} misc="mb-8">Who I Am</Header>
         </div>
         <div className="flex gap-x-8 justify-center">
-        <PictureHolder imgSrc={url} isBorderRound={false} width="max-w-[75%]"/>
+        <PictureHolder imgSrc={url} isBorderRound={false} width="lg:max-w-[75%] max-w-[60%]"/>
         <div className="w-full flex flex-col text-center justify-center">
-        <Header isHeader={false} misc=" mb-2">Hi, I'm Princess.</Header>
-        <p className="mb-4 italic">
+        <Header isHeader={false} misc="mb-2 lg:text-4xl text-2xl">Hi, I'm Princess.</Header>
+        <p className="mb-4 italic lg:text-lg text-xs">
         <span className="font-semibold">Assalamu Alaykum!</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed ligula velit. In et nulla massa. Sed vel dui facilisis, 
         luctus mauris at, consectetur enim. Quisque dapibus dapibus mi ac luctus. Nam nec nisi et ligula molestie tristique. Suspendisse potenti. Nunc in feugiat metus. Etiam sit amet accumsan sem, 
         ac molestie ipsum. Fusce varius purus vel tortor feugiat, in rutrum odio pretium. Integer ipsum ligula, tempus id nibh a, faucibus vestibulum enim. Sed faucibus mattis urna, tempor porta ante 
