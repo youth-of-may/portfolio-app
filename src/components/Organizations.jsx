@@ -2,7 +2,6 @@ import { organization } from "../data"
 import PictureHolder from "./PictureHolder"
 import Header from "./Header"
 import Subheader from "./Subheader"
-import Head from "next/head"
 export default function Organizations() {
     return (
         <>
