@@ -8,7 +8,7 @@ export default function Organizations() {
         {organization.map((org) =>
         <div className=" flex mb-4 border border-gray-400/50 rounded-md p-4 bg-white hover:drop-shadow-gray-400/30 hover:drop-shadow-lg hover:translate-y-1">
             <div className="flex flex-col justify-center">
-            <PictureHolder imgSrc={org.url} width="max-w-[150px] max-h-[400px] mr-8"></PictureHolder>
+            <PictureHolder imgSrc={org.url} width="max-w-[150px] h-[250px] mr-8"></PictureHolder>
             </div>
             <div className="flex flex-col my-auto">
             <Header isHeader={false} misc=" text-left mb-2">{org.name}</Header>
