@@ -2,6 +2,10 @@ import ateneo from "./assets/ateneo.png";
 import gabay from "./assets/gabay.png";
 import gdsc from "./assets/gdsc.png";
 import mdsf from "./assets/mdsf.png";
+import facebook from "./assets/facebook.png";
+import github from "./assets/github.png";
+import gmail from "./assets/gmail.png";
+import linkedin from "./assets/linkedin.png";
 export const organization = [
     {
         name: "Ateneo Gabay",
@@ -51,7 +55,7 @@ export const education = [
     },
 ]
 
-export const certification = [
+export const skills = [
     {
         name: "",
         year: "",
@@ -63,5 +67,27 @@ export const projects = [
         name: "",
         description: "",
         link: "",
+    }
+]
+export const socials = [
+    {
+        social: "gironprincessmayb@gmail.com",
+        link: "",
+        icon: gmail,
+    },
+    {
+        social: "youth-of-may",
+        link: "",
+        icon: github,
+    },
+    {
+        social: "Princess May Giron",
+        link: "",
+        icon: linkedin,
+    },
+    {
+        social: "Princess May Giron",
+        link: "",
+        icon: facebook,
     }
 ]
