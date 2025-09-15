@@ -27,13 +27,14 @@ export default function Experience() {
     return (
         <>
         <div className="text-center flex flex-col">
-            <Header isHeader={true} misc="mb-8">My Journey</Header>
-            <div className="flex gap-x-16 justify-center">
-                <Subheader misc="mb-8 hover:underline hover:underline-offset-4" handleClick={()=> clickOrg()}>Organizations</Subheader>
-                <Subheader misc="mb-8 hover:underline hover:underline-offset-4" handleClick={()=> clickEduc()}>Education</Subheader>
-                <Subheader misc="mb-8 hover:underline hover:underline-offset-4" handleClick={()=> clickCert()}>Certifications</Subheader>
+            <Header isHeader={true} misc="mb-4">My Journey</Header>
+            <Subheader misc="mb-16">A look at my experiences and achievements</Subheader>
+            <div className="flex lg:gap-x-16 gap-x-8 justify-center">
+                <Subheader misc="mb-8 hover:underline hover:underline-offset-4 active:underline" handleClick={()=> clickOrg()}>Organizations</Subheader>
+                <Subheader misc="mb-8 hover:underline hover:underline-offset-4 active:underline" handleClick={()=> clickEduc()}>Education</Subheader>
+                <Subheader misc="mb-8 hover:underline hover:underline-offset-4 focus:text-white" handleClick={()=> clickCert()}>Certifications</Subheader>
             </div>
-            <div>
+            <div className="lg:max-w-6xl sm:max-w-xl">
                 <p>{org ? <Organizations/> : educ ? <Education/> : <Certification/>}</p>
             </div>
             <div>
