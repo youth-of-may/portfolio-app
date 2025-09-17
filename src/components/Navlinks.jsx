@@ -5,7 +5,8 @@ export default function NavLinks({position="justify-end", mr=""}) {
     return (
         <>
         <nav className={`flex ${navStyle} ${position} ${mr}`}>
-            <Link to="/" className={linkStyle}>About</Link>
+            <Link to="/" className={linkStyle}>Home</Link>
+            <Link to="/about" className={linkStyle}>About</Link>
             <Link to="/experience" className={linkStyle}>Experience</Link>
             <Link to="/projects" className={linkStyle}>Projects</Link>
             <Link to="/contacts" className={linkStyle}>Contact</Link>
