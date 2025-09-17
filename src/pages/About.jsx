@@ -8,17 +8,22 @@ export default function About() {
         <div className="text-center">
             <Header isHeader={true} misc="mb-8">Who I Am</Header>
         </div>
-        <div className="flex gap-x-8 justify-center">
-        <PictureHolder imgSrc={url} isBorderRound={false} width="lg:max-w-[75%] max-w-[60%]"/>
-        <div className="w-full flex flex-col text-center justify-center">
-        <Header isHeader={false} misc="mb-2 lg:text-4xl text-2xl">Hi, I'm Princess.</Header>
-        <p className="mb-4 italic lg:text-lg text-xs">
+        <div className="flex gap-x-8 flex-col justify-center items-center">
+        <PictureHolder imgSrc={url} isBorderRound={false} width="w-[80%] h-[250px] mb-8 rounded-xl"/>
+        <div className="w-full flex flex-col justify-center">
+        <p className="mb-4 italic lg:text-lg text-md">
         <span className="font-semibold">Assalamu Alaykum!</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed ligula velit. In et nulla massa. Sed vel dui facilisis, 
         luctus mauris at, consectetur enim. Quisque dapibus dapibus mi ac luctus. Nam nec nisi et ligula molestie tristique. Suspendisse potenti. Nunc in feugiat metus. Etiam sit amet accumsan sem, 
         ac molestie ipsum. Fusce varius purus vel tortor feugiat, in rutrum odio pretium. Integer ipsum ligula, tempus id nibh a, faucibus vestibulum enim. Sed faucibus mattis urna, tempor porta ante 
         efficitur in. Donec dignissim vel diam nec posuere.
         </p>
-        <p>Read More</p>
+        <p className="mb-4 italic lg:text-lg text-md">
+        <span className="font-semibold">Assalamu Alaykum!</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed ligula velit. In et nulla massa. Sed vel dui facilisis, 
+        luctus mauris at, consectetur enim. Quisque dapibus dapibus mi ac luctus. Nam nec nisi et ligula molestie tristique. Suspendisse potenti. Nunc in feugiat metus. Etiam sit amet accumsan sem, 
+        ac molestie ipsum. Fusce varius purus vel tortor feugiat, in rutrum odio pretium. Integer ipsum ligula, tempus id nibh a, faucibus vestibulum enim. Sed faucibus mattis urna, tempor porta ante 
+        efficitur in. Donec dignissim vel diam nec posuere.
+        </p>
+
         </div>
         </div>
         </div>
