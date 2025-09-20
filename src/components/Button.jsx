@@ -4,10 +4,11 @@ export default function Button({
   hoverBg = "hover:bg-[#10549f] hover:text-white",
   isRound = true,
   url,
-  target="_blank"
+  target="_blank",
+  borderB = "border border-black"
 }) {
   const baseStyle =
-    "whitespace-nowrap py-2 border border-black transition ease-in-out hover:scale-105";
+    "whitespace-nowrap py-2 transition ease-in-out hover:scale-105";
   const classStyle = isRound ? "rounded-full" : "rounded-md";
 
   function handleClick() {
@@ -18,7 +19,7 @@ export default function Button({
 
   return (
     <button
-      className={`${px} ${hoverBg} ${classStyle} ${baseStyle}`}
+      className={`${px} ${hoverBg} ${classStyle} ${baseStyle} ${borderB}`}
       onClick={handleClick}
     >
       {children}
