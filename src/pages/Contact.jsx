@@ -13,7 +13,7 @@ export default function Contact() {
                 {socials.map((soc) => 
                     <div className="flex lg:w-auto gap-y-8 w-full justify-center items-center">
                         <img className="lg:w-[50px] lg:h-[50px] w-[35px] h-[35px]" src={soc.icon}/>
-                        <a href={soc.link} className="hover:underline hover:underline-offset-8 hover:underline-black/60 hover:text-black/60">{soc.social}</a>
+                        <a href={soc.link} target="_blank" className="hover:underline hover:underline-offset-8 hover:underline-black/60 hover:text-black/60">{soc.social}</a>
                     </div>
                 )}
                 
