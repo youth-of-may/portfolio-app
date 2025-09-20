@@ -14,6 +14,7 @@ import react from "./assets/react.png"
 import tableau from "./assets/tableau.png"
 import canva from "./assets/canva.png"
 import css from "./assets/css.png"
+import tailwind from "./assets/tailwind.png"
 import django from "./assets/django.png"
 import figma from "./assets/figma.png"
 export const organization = [
@@ -69,6 +70,7 @@ export const skills = {
   frontend: [
     { name: "HTML", icon: html },
     { name: "CSS", icon: css },
+    { name: "Tailwind", icon: tailwind },
     { name: "React JS", icon: react },
   ],
   backend: [
