@@ -3,6 +3,7 @@ import Header from "../components/Header"
 import Subheader from "../components/Subheader"
 import PictureHolder from "../components/PictureHolder"
 import { projects } from "../data"
+import github from "../assets/github.png";
 
 export default function Projects() {
     return (
@@ -23,10 +24,13 @@ export default function Projects() {
                                 
                                 <div className="flex gap-x-2 mb-4">
                                     {proj.skills.map((skill, index) => (
-                                        <Button key={index} hoverBg={skill.color} borderB="" px="px-4">{skill.language}</Button>
+                                        <Button key={index} hoverBg={skill.color} borderB="" px="px-4">
+                                            {skill.language}</Button>
                                     ))}
                                 </div>
-                                <Button px="px-24" >Learn More</Button>
+                                <Button px="px-24" >
+                                        Learn More
+                                </Button>
                             </div>
                         )
                     }

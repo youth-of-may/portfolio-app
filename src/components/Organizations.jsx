@@ -14,11 +14,11 @@ export default function Organizations() {
             <Header isHeader={false} misc=" text-left mb-2">{org.name}</Header>
             <div className="flex flex-col">
             {org.activities.map((act) =>
-            <div className="flex flex-col ">
+            <div className="flex flex-col mb-4">
                 
                 <Subheader misc="text-left">{act.role}</Subheader>
-                <Subheader misc="text-left" size="text-lg" color="text-gray-500">{act.description}</Subheader>
-                <Subheader misc="text-left" size="text-md" color="text-gray-500">{act.year}</Subheader>
+                <Subheader misc="text-left" size="text-md" sizelg="" color="text-gray-500">{act.description}</Subheader>
+                <Subheader misc="text-left" size="text-md" sizelg="" color="text-gray-500">{act.year}</Subheader>
                 
             </div>
             )}

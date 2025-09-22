@@ -23,12 +23,12 @@ export const organization = [
         activities: [
             {
                 role: "Deputy for Website Management",
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed ligula velit.",
+                description: "As Deputy for Website Management, I was responsible for designing and maintaining websites aligned with the organization’s goals. Alongside other web managers, I completed a website overhaul to enhance functionality and user experience, using modern technologies such as Django. Additionally, I collaborated closely with fellow website managers, ensuring smooth workflows and consistent updates across the platform.",
                 year: 2025,
             },
             {
                 role: "Salubong 2025 Core Team",
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed ligula velit.",
+                description: "As part of the core creative team, I contributed to the development of promotional materials that reflected the organization’s brand identity. I worked alongside other creatives to establish a cohesive visual identity, ensuring that all materials—from digital campaigns to print—were consistent, engaging, and aligned with the organization’s vision.",
                 year: 2025,
             },
         ],
@@ -40,7 +40,7 @@ export const organization = [
         activities: [
             {
                 role: "Financial Officer",
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed ligula velit.",
+                description: "I manage the organization’s finances, including budgeting, tracking expenses, and preparing reports to support informed decision-making. I work closely with team members to optimize resources and ensure compliance, helping the organization maintain financial health and achieve its goals efficiently.",
                 year: 2025,
             },
         ],
@@ -92,7 +92,7 @@ export const skills = {
 export const projects = [
     {
         name: "Hobbysite",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed ligula velit. In et nulla massa. Sed vel dui facilisis, luctus mauris at, consectetur enim. Quisque dapibus dapibus mi ac luctus. Nam nec nisi et ligula molestie tristique. Suspendisse potenti. Nunc in feugiat metus. Etiam sit amet accumsan sem, ac molestie ipsum. Fusce varius purus vel tortor feugiat, in rutrum odio pretium. Integer ipsum ligula, tempus id nibh a, faucibus vestibulum enim. Sed faucibus mattis urna, tempor porta ante efficitur in. Donec dignissim vel diam nec posuere.",
+        description: "A Django-based web platform where users can create buyer or seller accounts, manage posts, threads, and merchandise, and track orders with quantity and cost details directly on their profiles.",
         img:"https://garden.spoonflower.com/c/5439145/p/f/m/R8RWIFy4JLa-w7-0qGiHV5HyNOloRHtYiGsZjRFa2gI0957w9KMAVhld/5439145-summer-doodle-geometric-triangle-deer-unicorn-rainbow-cactus-flamingo-pineapple-on-grey-by-caja_design.jpg",
         skills: [
             {
@@ -116,7 +116,7 @@ export const projects = [
     },
     {
         name: "OSG Hub",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed ligula velit. In et nulla massa. Sed vel dui facilisis, luctus mauris at, consectetur enim. Quisque dapibus dapibus mi ac luctus. Nam nec nisi et ligula molestie tristique. Suspendisse potenti. Nunc in feugiat metus. Etiam sit amet accumsan sem, ac molestie ipsum. Fusce varius purus vel tortor feugiat, in rutrum odio pretium. Integer ipsum ligula, tempus id nibh a, faucibus vestibulum enim. Sed faucibus mattis urna, tempor porta ante efficitur in. Donec dignissim vel diam nec posuere.",
+        description: "A project management information website for the organization, built with HTML and CSS and deployed on Vercel, providing easy access to internal procedures.",
         img:"https://garden.spoonflower.com/c/5439145/p/f/m/R8RWIFy4JLa-w7-0qGiHV5HyNOloRHtYiGsZjRFa2gI0957w9KMAVhld/5439145-summer-doodle-geometric-triangle-deer-unicorn-rainbow-cactus-flamingo-pineapple-on-grey-by-caja_design.jpg",
         skills: [
             {
@@ -132,7 +132,7 @@ export const projects = [
     },
     {
         name: "Spotify Home",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed ligula velit. In et nulla massa. Sed vel dui facilisis, luctus mauris at, consectetur enim. Quisque dapibus dapibus mi ac luctus. Nam nec nisi et ligula molestie tristique. Suspendisse potenti. Nunc in feugiat metus. Etiam sit amet accumsan sem, ac molestie ipsum. Fusce varius purus vel tortor feugiat, in rutrum odio pretium. Integer ipsum ligula, tempus id nibh a, faucibus vestibulum enim. Sed faucibus mattis urna, tempor porta ante efficitur in. Donec dignissim vel diam nec posuere.",
+        description: "A replica of Spotify’s homepage created using raw HTML and CSS, showcasing frontend design and layout skills.",
         img:"https://garden.spoonflower.com/c/5439145/p/f/m/R8RWIFy4JLa-w7-0qGiHV5HyNOloRHtYiGsZjRFa2gI0957w9KMAVhld/5439145-summer-doodle-geometric-triangle-deer-unicorn-rainbow-cactus-flamingo-pineapple-on-grey-by-caja_design.jpg",
         skills: [
             {
@@ -148,7 +148,7 @@ export const projects = [
     },
     {
         name: "Grow A Garden: A Data Story",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed ligula velit. In et nulla massa. Sed vel dui facilisis, luctus mauris at, consectetur enim. Quisque dapibus dapibus mi ac luctus. Nam nec nisi et ligula molestie tristique. Suspendisse potenti. Nunc in feugiat metus. Etiam sit amet accumsan sem, ac molestie ipsum. Fusce varius purus vel tortor feugiat, in rutrum odio pretium. Integer ipsum ligula, tempus id nibh a, faucibus vestibulum enim. Sed faucibus mattis urna, tempor porta ante efficitur in. Donec dignissim vel diam nec posuere.",
+        description: "A data-driven story using data from the Grow A Garden Wiki, preprocessed in Tableau Prep, visualized in Tableau, and designed to present insights in a cohesive and engaging narrative.",
         img:"https://garden.spoonflower.com/c/5439145/p/f/m/R8RWIFy4JLa-w7-0qGiHV5HyNOloRHtYiGsZjRFa2gI0957w9KMAVhld/5439145-summer-doodle-geometric-triangle-deer-unicorn-rainbow-cactus-flamingo-pineapple-on-grey-by-caja_design.jpg",
         skills: [
             {
@@ -168,7 +168,7 @@ export const projects = [
     },
     {
         name: "Nike 2021 Sales Dashboard",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed ligula velit. In et nulla massa. Sed vel dui facilisis, luctus mauris at, consectetur enim. Quisque dapibus dapibus mi ac luctus. Nam nec nisi et ligula molestie tristique. Suspendisse potenti. Nunc in feugiat metus. Etiam sit amet accumsan sem, ac molestie ipsum. Fusce varius purus vel tortor feugiat, in rutrum odio pretium. Integer ipsum ligula, tempus id nibh a, faucibus vestibulum enim. Sed faucibus mattis urna, tempor porta ante efficitur in. Donec dignissim vel diam nec posuere.",
+        description: "A Tableau dashboard built from an online dataset, preprocessed in Tableau Prep, with graphs and visualizations designed to clearly represent Nike’s 2021 sales performance.",
         img:"https://garden.spoonflower.com/c/5439145/p/f/m/R8RWIFy4JLa-w7-0qGiHV5HyNOloRHtYiGsZjRFa2gI0957w9KMAVhld/5439145-summer-doodle-geometric-triangle-deer-unicorn-rainbow-cactus-flamingo-pineapple-on-grey-by-caja_design.jpg",
         skills: [
             {
@@ -189,7 +189,7 @@ export const projects = [
     },
     {
         name: "Either Java or New Project",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed ligula velit. In et nulla massa. Sed vel dui facilisis, luctus mauris at, consectetur enim. Quisque dapibus dapibus mi ac luctus. Nam nec nisi et ligula molestie tristique. Suspendisse potenti. Nunc in feugiat metus. Etiam sit amet accumsan sem, ac molestie ipsum. Fusce varius purus vel tortor feugiat, in rutrum odio pretium. Integer ipsum ligula, tempus id nibh a, faucibus vestibulum enim. Sed faucibus mattis urna, tempor porta ante efficitur in. Donec dignissim vel diam nec posuere.",
+        description: "A Tableau dashboard built from an online dataset, preprocessed in Tableau Prep, with graphs and visualizations designed to clearly represent Nike’s 2021 sales performance.",
         img:"https://garden.spoonflower.com/c/5439145/p/f/m/R8RWIFy4JLa-w7-0qGiHV5HyNOloRHtYiGsZjRFa2gI0957w9KMAVhld/5439145-summer-doodle-geometric-triangle-deer-unicorn-rainbow-cactus-flamingo-pineapple-on-grey-by-caja_design.jpg",
         skills: [
             {

@@ -1,5 +1,5 @@
-export default function Subheader({children, color="text-black", size="text-lg", weight="font-regular", misc="mb-12", handleClick}) {
-    const baseStyle = `${color} ${weight} ${misc} ${size} lg:text-xl`
+export default function Subheader({children, color="text-black", size="text-lg", sizelg="lg:text-xl", weight="font-regular", misc="mb-12", handleClick}) {
+    const baseStyle = `${color} ${weight} ${misc} ${size} ${sizelg}`
     
     return (
         <>
