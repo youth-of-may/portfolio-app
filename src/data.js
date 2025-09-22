@@ -112,7 +112,7 @@ export const projects = [
             color: 'bg-[#14532d] hover:bg-[#052e16] text-white font-medium',
             },
         ],
-        link: "",
+        link: "https://github.com/LegitAgent125/hobbysite-FG-16",
     },
     {
         name: "OSG Hub",
@@ -128,7 +128,7 @@ export const projects = [
             color: 'bg-[#1e40af] hover:bg-[#1e3a8a] text-white font-medium',
             },
         ],
-        link: "",
+        link: "https://osg-hub.vercel.app/",
     },
     {
         name: "Spotify Home",
@@ -144,7 +144,7 @@ export const projects = [
             color: 'bg-[#1e40af] hover:bg-[#1e3a8a] text-white font-medium',
             },
         ],
-        link: "",
+        link: "https://youth-of-may.github.io/spotify-home/",
     },
     {
         name: "Grow A Garden: A Data Story",
@@ -164,7 +164,7 @@ export const projects = [
             color: 'bg-[#0d9488] hover:bg-[#115e59] text-white font-medium',
             },
         ],
-        link: "",
+        link: "https://www.canva.com/design/DAGzrPGDGzU/gYfPVY4BRygTHECzT2j7NA/edit?utm_content=DAGzrPGDGzU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
     },
     {
         name: "Nike 2021 Sales Dashboard",
@@ -185,7 +185,7 @@ export const projects = [
             },
             
         ],
-        link: "",
+        link: "https://public.tableau.com/shared/K632NG647?:display_count=n&:origin=viz_share_link",
     },
     {
         name: "Either Java or New Project",

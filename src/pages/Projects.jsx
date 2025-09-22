@@ -27,10 +27,13 @@ export default function Projects() {
                                         <Button key={index} hoverBg={skill.color} borderB="" px="px-4">
                                             {skill.language}</Button>
                                     ))}
+                                    
                                 </div>
+                                <a href={proj.link} target="_blank">
                                 <Button px="px-24" >
                                         Learn More
                                 </Button>
+                                </a>
                             </div>
                         )
                     }
