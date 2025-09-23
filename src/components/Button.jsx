@@ -5,7 +5,8 @@ export default function Button({
   isRound = true,
   url,
   target="_blank",
-  borderB = "border border-black"
+  borderB = "border border-black",
+  click
 }) {
   const baseStyle =
     "whitespace-nowrap py-2 transition ease-in-out hover:scale-105";
@@ -14,6 +15,9 @@ export default function Button({
   function handleClick() {
     if (url) {
       window.open(url, target);
+    }
+    if (click) {
+      click()
     }
   }
 
