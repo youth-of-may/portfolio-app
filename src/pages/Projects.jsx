@@ -15,7 +15,7 @@ export default function Projects() {
                     {
                         projects.map((proj, projIndex) =>
                             <div key={projIndex} className="flex flex-col items-center lg:max-w-[45%] bg-[#fafafa] p-4 mb-8 rounded-xl border hover:drop-shadow-gray-400/30 hover:drop-shadow-lg hover:translate-y-1">
-                                <PictureHolder imgSrc={proj.img} width="w-[75%] h-[250px]"/>
+                                <PictureHolder imgSrc={proj.img} width="w-[85%] h-[300px]"/>
                                 <div>
                                 <Subheader size="text-xl" weight="font-bold" misc="mb-4 mt-4">{proj.name}</Subheader>
                                 <img src=""/>
