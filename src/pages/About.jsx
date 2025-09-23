@@ -11,7 +11,7 @@ export default function About() {
             <Subheader misc="mb-4" color="text-black/60">Get To Know Me</Subheader>
         </div>
         <div className="flex gap-x-8 flex-col justify-center items-center">
-        <PictureHolder imgSrc={headerImg} isBorderRound={false} width="w-[75%] h-[300px] mb-8 rounded-xl"/>
+        <PictureHolder imgSrc={headerImg} isBorderRound={false} width="lg:w-[75%] lg:h-[350px] w-[80%] h-[250px] mb-8 rounded-xl"/>
         <div className="w-full flex flex-col justify-center">
         <p className="mb-4 lg:text-lg text-md indent-8">
         <span className="font-semibold italic">Hi, I’m Princess May Giron! </span> 
