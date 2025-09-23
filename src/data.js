@@ -17,6 +17,12 @@ import css from "./assets/css.png"
 import tailwind from "./assets/tailwind.png"
 import django from "./assets/django.png"
 import figma from "./assets/figma.png"
+import nike from "./assets/nike.png"
+import growagarden from "./assets/growagarden.png"
+import hobbysite from "./assets/hobbysite.png"
+import osghub from "./assets/osghub.png"
+import spotify from "./assets/spotify.png"
+import comingsoon from "./assets/comingsoon.png"
 export const organization = [
     {
         name: "Ateneo Gabay",
@@ -93,7 +99,7 @@ export const projects = [
     {
         name: "Hobbysite",
         description: "A Django-based web platform where users can create buyer or seller accounts, manage posts, threads, and merchandise, and track orders with quantity and cost details directly on their profiles.",
-        img:"https://garden.spoonflower.com/c/5439145/p/f/m/R8RWIFy4JLa-w7-0qGiHV5HyNOloRHtYiGsZjRFa2gI0957w9KMAVhld/5439145-summer-doodle-geometric-triangle-deer-unicorn-rainbow-cactus-flamingo-pineapple-on-grey-by-caja_design.jpg",
+        img: hobbysite,
         skills: [
             {
             language: 'HTML',
@@ -117,7 +123,7 @@ export const projects = [
     {
         name: "OSG Hub",
         description: "A project management information website for the organization, built with HTML and CSS and deployed on Vercel, providing easy access to internal procedures.",
-        img:"https://garden.spoonflower.com/c/5439145/p/f/m/R8RWIFy4JLa-w7-0qGiHV5HyNOloRHtYiGsZjRFa2gI0957w9KMAVhld/5439145-summer-doodle-geometric-triangle-deer-unicorn-rainbow-cactus-flamingo-pineapple-on-grey-by-caja_design.jpg",
+        img:osghub,
         skills: [
             {
             language: 'HTML',
@@ -133,7 +139,7 @@ export const projects = [
     {
         name: "Spotify Home",
         description: "A replica of Spotify’s homepage created using raw HTML and CSS, showcasing frontend design and layout skills.",
-        img:"https://garden.spoonflower.com/c/5439145/p/f/m/R8RWIFy4JLa-w7-0qGiHV5HyNOloRHtYiGsZjRFa2gI0957w9KMAVhld/5439145-summer-doodle-geometric-triangle-deer-unicorn-rainbow-cactus-flamingo-pineapple-on-grey-by-caja_design.jpg",
+        img:spotify,
         skills: [
             {
             language: 'HTML',
@@ -149,7 +155,7 @@ export const projects = [
     {
         name: "Grow A Garden: A Data Story",
         description: "A data-driven story using data from the Grow A Garden Wiki, preprocessed in Tableau Prep, visualized in Tableau, and designed to present insights in a cohesive and engaging narrative.",
-        img:"https://garden.spoonflower.com/c/5439145/p/f/m/R8RWIFy4JLa-w7-0qGiHV5HyNOloRHtYiGsZjRFa2gI0957w9KMAVhld/5439145-summer-doodle-geometric-triangle-deer-unicorn-rainbow-cactus-flamingo-pineapple-on-grey-by-caja_design.jpg",
+        img:growagarden,
         skills: [
             {
             language: 'Google Sheets',
@@ -169,7 +175,7 @@ export const projects = [
     {
         name: "Nike 2021 Sales Dashboard",
         description: "A Tableau dashboard built from an online dataset, preprocessed in Tableau Prep, with graphs and visualizations designed to clearly represent Nike’s 2021 sales performance.",
-        img:"https://garden.spoonflower.com/c/5439145/p/f/m/R8RWIFy4JLa-w7-0qGiHV5HyNOloRHtYiGsZjRFa2gI0957w9KMAVhld/5439145-summer-doodle-geometric-triangle-deer-unicorn-rainbow-cactus-flamingo-pineapple-on-grey-by-caja_design.jpg",
+        img:nike,
         skills: [
             {
             language: 'Kaggle',
@@ -187,27 +193,7 @@ export const projects = [
         ],
         link: "https://public.tableau.com/shared/K632NG647?:display_count=n&:origin=viz_share_link",
     },
-    {
-        name: "Either Java or New Project",
-        description: "A Tableau dashboard built from an online dataset, preprocessed in Tableau Prep, with graphs and visualizations designed to clearly represent Nike’s 2021 sales performance.",
-        img:"https://garden.spoonflower.com/c/5439145/p/f/m/R8RWIFy4JLa-w7-0qGiHV5HyNOloRHtYiGsZjRFa2gI0957w9KMAVhld/5439145-summer-doodle-geometric-triangle-deer-unicorn-rainbow-cactus-flamingo-pineapple-on-grey-by-caja_design.jpg",
-        skills: [
-            {
-            language: 'Kaggle',
-            color: 'bg-[#0284c7] hover:bg-[#0369a1] text-white font-medium',
-            },
-            {
-            language: 'Tableau Prep',
-            color: 'bg-[#be123c] hover:bg-[#881337] text-white font-medium',
-            },
-            {
-            language: 'Tableau',
-            color: 'bg-[#e25822] hover:bg-[#b23c17] text-white font-medium',
-            },
-            
-        ],
-        link: "",
-    },
+    
 ]
 export const socials = [
     {
