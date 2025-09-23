@@ -16,6 +16,17 @@ export default function Button({
     if (url) {
       window.open(url, target);
     }
+    if (url?.startsWith("/")) {
+    return (
+      <Link
+        to={url}
+        className="whitespace-nowrap py-2 px-8 rounded-full transition ease-in-out hover:scale-105 bg-black/80 hover:bg-black text-white"
+      >
+        {children}
+      </Link>
+    );
+  }
+
     if (click) {
       click()
     }
